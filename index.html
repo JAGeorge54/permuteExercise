@@ -32,6 +32,7 @@
     let len = tag.length;
     for (let i = 0; i < len; i++) {
       tagArray[i] = tag.item(i); // get a handle on divs
+      console.log(tag.item(i).innerText);
     }
 
     function setTags(permutation) {
